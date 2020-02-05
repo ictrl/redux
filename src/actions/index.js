@@ -11,3 +11,10 @@ export const decrement = params => {
     payload: params
   };
 };
+
+export const auth = params => {
+  return {
+    type: "SIGN_IN",
+    payload: params
+  };
+};
